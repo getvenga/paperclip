@@ -1,6 +1,8 @@
-source "https://rubygems.org"
+source "https://rubygems.pkg.github.com/getvenga" do
+  gem "mimemagic", "0.3.6"
+end
 
-gem 'mimemagic', :git => "git@github.com:getvenga/mimemagic.git"
+source "https://rubygems.org"
 
 gemspec
 
