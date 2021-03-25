@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'mimemagic', :git => "git@github.com:getvenga/mimemagic.git"
+
 gemspec
 
 gem 'sqlite3', '~> 1.3.8', :platforms => :ruby
